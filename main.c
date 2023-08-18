@@ -34,11 +34,11 @@ int main ()
    printf ("Sua mensalidade: ");
    scanf ("%f", &mensalidade);
 
-   printf (".\n.\n.\n.\nNome: %sIdade: %d \nMatricula: %s \nEndereco: %s \nCurso: %sPeríodo: %d \nDisciplinas: %d \nMensalidade: %f",
+   printf (".\n.\n.\n.\nNome: %sIdade: %d \nMatricula: %s \nEndereco: %s \nCurso: %sPeríodo: %d \nDisciplinas: %d \nMensalidade: %.2f",
    	        nome, idade, matricula, endereco, curso, periodo, disciplinas, mensalidade);
    printf ("\n\n    __o  bici! \n  _/><_ \n (_)/(_) \n  ");
 
-   scanf ("%d", &idade);
+   printf ("Aperte enter para fechar o programa! \n"); scanf ("%d", &idade);
 
 
 
