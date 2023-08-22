@@ -38,8 +38,5 @@ int main ()
    	        nome, idade, matricula, endereco, curso, periodo, disciplinas, mensalidade);
    printf ("\n\n    __o  bici! \n  _/><_ \n (_)/(_) \n  ");
 
-   printf ("Aperte enter para fechar o programa! \n"); scanf ("%d", &idade);
-
-
-
+   return 0;
 }
